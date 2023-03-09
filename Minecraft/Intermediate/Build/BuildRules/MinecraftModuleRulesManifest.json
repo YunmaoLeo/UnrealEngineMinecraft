@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\ue4_project\\Minecraft\\Source\\Minecraft\\Minecraft.Build.cs",
+		"F:\\ue4_project\\Minecraft\\Source\\Minecraft.Target.cs",
+		"F:\\ue4_project\\Minecraft\\Source\\MinecraftEditor.Target.cs"
+	],
+	"EngineVersion": "4.25.4"
+}
