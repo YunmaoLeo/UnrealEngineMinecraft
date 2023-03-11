@@ -1,6 +1,6 @@
 F:\ue4_project\UnrealEngineMinecraft\Minecraft\Intermediate\Build\Win64\UE4Editor\Development\Minecraft\Definitions.Minecraft.h
 F:\ue4_project\UnrealEngineMinecraft\Minecraft\Source\Minecraft\Blocks\BlockActor.h
-F:\ue4_project\UnrealEngineMinecraft\Minecraft\Source\Minecraft\Blocks\BlockType.h
+F:\ue4_project\UnrealEngineMinecraft\Minecraft\Source\Minecraft\Blocks\BlockEnumType.h
 F:\ue4_project\UnrealEngineMinecraft\Minecraft\Intermediate\Build\Win64\UE4Editor\Inc\Minecraft\BlockActor.generated.h
 F:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine/AssetManager.h
 F:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Engine\AssetManagerTypes.h

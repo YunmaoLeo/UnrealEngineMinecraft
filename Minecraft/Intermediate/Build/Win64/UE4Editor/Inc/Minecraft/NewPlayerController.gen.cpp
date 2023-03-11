@@ -31,19 +31,6 @@ void EmptyLinkFunctionForGeneratedCodeNewPlayerController() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_unitBlockSize_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_unitBlockSize;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_chunkElementCount_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_chunkElementCount;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_renderRange_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FIntPropertyParams NewProp_renderRange;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -59,32 +46,6 @@ void EmptyLinkFunctionForGeneratedCodeNewPlayerController() {}
 		{ "ModuleRelativePath", "NewPlayerController.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewPlayerController_Statics::NewProp_unitBlockSize_MetaData[] = {
-		{ "Category", "render" },
-		{ "ModuleRelativePath", "NewPlayerController.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ANewPlayerController_Statics::NewProp_unitBlockSize = { "unitBlockSize", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANewPlayerController, unitBlockSize), METADATA_PARAMS(Z_Construct_UClass_ANewPlayerController_Statics::NewProp_unitBlockSize_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANewPlayerController_Statics::NewProp_unitBlockSize_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewPlayerController_Statics::NewProp_chunkElementCount_MetaData[] = {
-		{ "Category", "render" },
-		{ "ModuleRelativePath", "NewPlayerController.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ANewPlayerController_Statics::NewProp_chunkElementCount = { "chunkElementCount", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANewPlayerController, chunkElementCount), METADATA_PARAMS(Z_Construct_UClass_ANewPlayerController_Statics::NewProp_chunkElementCount_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANewPlayerController_Statics::NewProp_chunkElementCount_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANewPlayerController_Statics::NewProp_renderRange_MetaData[] = {
-		{ "Category", "render" },
-		{ "ModuleRelativePath", "NewPlayerController.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_ANewPlayerController_Statics::NewProp_renderRange = { "renderRange", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ANewPlayerController, renderRange), METADATA_PARAMS(Z_Construct_UClass_ANewPlayerController_Statics::NewProp_renderRange_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ANewPlayerController_Statics::NewProp_renderRange_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANewPlayerController_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewPlayerController_Statics::NewProp_unitBlockSize,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewPlayerController_Statics::NewProp_chunkElementCount,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANewPlayerController_Statics::NewProp_renderRange,
-	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ANewPlayerController_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ANewPlayerController>::IsAbstract,
 	};
@@ -94,11 +55,11 @@ void EmptyLinkFunctionForGeneratedCodeNewPlayerController() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		Z_Construct_UClass_ANewPlayerController_Statics::PropPointers,
+		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		UE_ARRAY_COUNT(Z_Construct_UClass_ANewPlayerController_Statics::PropPointers),
+		0,
 		0,
 		0x009002A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ANewPlayerController_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ANewPlayerController_Statics::Class_MetaDataParams))
@@ -112,7 +73,7 @@ void EmptyLinkFunctionForGeneratedCodeNewPlayerController() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANewPlayerController, 3839351732);
+	IMPLEMENT_CLASS(ANewPlayerController, 1572526923);
 	template<> MINECRAFT_API UClass* StaticClass<ANewPlayerController>()
 	{
 		return ANewPlayerController::StaticClass();

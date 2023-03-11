@@ -1,6 +1,7 @@
 ﻿#include "BlockInstancesManager.h"
 
 #include "Minecraft/NewPlayerController.h"
+#include "Minecraft/World/WorldConstants.h"
 
 BlockInstancesManager::BlockInstancesManager(ABlockActor* ISMActor)
 {

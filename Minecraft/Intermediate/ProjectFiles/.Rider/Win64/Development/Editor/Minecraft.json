@@ -15750,6 +15750,7 @@
 				"HeadMountedDisplay"
 			],
 			"PrivateDependencyModules": [
+				"AITestSuite",
 				"Engine"
 			],
 			"PublicIncludePaths": [

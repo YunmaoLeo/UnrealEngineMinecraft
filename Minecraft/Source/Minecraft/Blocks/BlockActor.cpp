@@ -47,7 +47,7 @@ void ABlockActor::InitInstancedStaticMeshes()
 
 void ABlockActor::InitMaterials()
 {
-	const UEnum* EnumPtr = FindObject<UEnum>(ANY_PACKAGE, TEXT("BlockType"), true);
+	const UEnum* EnumPtr = FindObject<UEnum>(ANY_PACKAGE, TEXT("BlockEnumType"), true);
 	for (int i = 0; i < static_cast<uint8>(BlockEnumType::AIR); i++)
 	{
 		BlockEnumType type = static_cast<BlockEnumType>(i);
