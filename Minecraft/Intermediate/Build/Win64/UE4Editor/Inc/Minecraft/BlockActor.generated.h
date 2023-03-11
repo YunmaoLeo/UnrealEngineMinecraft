@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MINECRAFT_BlockActor_generated_h
 
-#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_SPARSE_DATA
-#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_RPC_WRAPPERS
-#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_INCLASS_NO_PURE_DECLS \
+#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_SPARSE_DATA
+#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_RPC_WRAPPERS
+#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesABlockActor(); \
 	friend struct Z_Construct_UClass_ABlockActor_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ABlockActor)
 
 
-#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_INCLASS \
+#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesABlockActor(); \
 	friend struct Z_Construct_UClass_ABlockActor_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ABlockActor)
 
 
-#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_STANDARD_CONSTRUCTORS \
+#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ABlockActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ABlockActor) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_ENHANCED_CONSTRUCTORS \
+#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ABlockActor(ABlockActor&&); \
@@ -58,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABlockActor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABlockActor)
 
 
-#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_PRIVATE_PROPERTY_OFFSET
-#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_9_PROLOG
-#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_GENERATED_BODY_LEGACY \
+#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_PRIVATE_PROPERTY_OFFSET
+#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_10_PROLOG
+#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_PRIVATE_PROPERTY_OFFSET \
-	Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_SPARSE_DATA \
-	Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_RPC_WRAPPERS \
-	Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_INCLASS \
-	Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_STANDARD_CONSTRUCTORS \
+	Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_PRIVATE_PROPERTY_OFFSET \
+	Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_SPARSE_DATA \
+	Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_RPC_WRAPPERS \
+	Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_INCLASS \
+	Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_GENERATED_BODY \
+#define Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_PRIVATE_PROPERTY_OFFSET \
-	Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_SPARSE_DATA \
-	Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_INCLASS_NO_PURE_DECLS \
-	Minecraft_Source_Minecraft_Blocks_BlockActor_h_12_ENHANCED_CONSTRUCTORS \
+	Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_PRIVATE_PROPERTY_OFFSET \
+	Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_SPARSE_DATA \
+	Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_INCLASS_NO_PURE_DECLS \
+	Minecraft_Source_Minecraft_Blocks_BlockActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

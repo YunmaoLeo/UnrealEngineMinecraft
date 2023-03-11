@@ -2,8 +2,8 @@
 	"Name": "MinecraftEditor",
 	"Configuration": "Development",
 	"Platform": "Win64",
-	"TargetFile": "F:\\ue4_project\\Minecraft\\Source\\MinecraftEditor.Target.cs",
-	"ProjectFile": "F:\\ue4_project\\Minecraft\\Minecraft.uproject",
+	"TargetFile": "F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft\\Source\\MinecraftEditor.Target.cs",
+	"ProjectFile": "F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft\\Minecraft.uproject",
 	"ToolchainInfo": 
 	{
 		"CppStandard": "Default",
@@ -1389,7 +1389,7 @@
 			]
 		},
 		{
-			"File": "F:\\ue4_project\\Minecraft\\Binaries\\Win64\\UE4Editor-Minecraft.dll",
+			"File": "F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft\\Binaries\\Win64\\UE4Editor-Minecraft.dll",
 			"Type": "DynamicLinkLibrary",
 			"Modules": [
 				"Minecraft"
@@ -15148,7 +15148,7 @@
 			"ShouldAddLegacyPublicIncludePaths": false,
 			"RuntimeDependencies": [
 				{
-					"Path": "F:\\ue4_project\\Minecraft/Config/SteamVRBindings/...",
+					"Path": "F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft/Config/SteamVRBindings/...",
 					"Type": "NonUFS"
 				}
 			],
@@ -15739,8 +15739,8 @@
 		"Minecraft": 
 		{
 			"Name": "Minecraft",
-			"Directory": "F:\\ue4_project\\Minecraft\\Source\\Minecraft",
-			"Rules": "F:\\ue4_project\\Minecraft\\Source\\Minecraft\\Minecraft.Build.cs",
+			"Directory": "F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft\\Source\\Minecraft",
+			"Rules": "F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft\\Source\\Minecraft\\Minecraft.Build.cs",
 			"PCHUsage": "UseExplicitOrSharedPCHs",
 			"PublicDependencyModules": [
 				"Core",
@@ -15753,10 +15753,10 @@
 				"Engine"
 			],
 			"PublicIncludePaths": [
-				"F:\\ue4_project\\Minecraft\\Source"
+				"F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft\\Source"
 			],
 			"LegacyPublicIncludePaths": [
-				"F:\\ue4_project\\Minecraft\\Source\\Minecraft"
+				"F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft\\Source\\Minecraft"
 			],
 			"PublicDelayLoadDLLs": [
 				"d3d12.dll"
@@ -15769,7 +15769,7 @@
 				"MINECRAFT_API="
 			],
 			"ShouldAddLegacyPublicIncludePaths": false,
-			"GeneratedCodeDirectory": "F:\\ue4_project\\Minecraft\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\Minecraft",
+			"GeneratedCodeDirectory": "F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft\\Intermediate\\Build\\Win64\\UE4Editor\\Inc\\Minecraft",
 			"ToolchainInfo": 
 			{
 				"bIsBuildingDLL": true,
@@ -16307,11 +16307,11 @@
 					"Type": "DebugNonUFS"
 				},
 				{
-					"Path": "F:\\ue4_project\\Minecraft/Content/Slate/...",
+					"Path": "F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft/Content/Slate/...",
 					"Type": "UFS"
 				},
 				{
-					"Path": "F:\\ue4_project\\Minecraft/Content/SlateDebug/...",
+					"Path": "F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft/Content/SlateDebug/...",
 					"Type": "DebugNonUFS"
 				}
 			],

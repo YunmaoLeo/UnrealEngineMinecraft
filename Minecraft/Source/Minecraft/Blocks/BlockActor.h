@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "BlockEnumType.h"
 #include "GameFramework/Actor.h"
 #include "BlockActor.generated.h"
 
@@ -20,10 +21,17 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
-	UInstancedStaticMeshComponent* mesh;
+	UPROPERTY(EditAnywhere, Category="Materials")
+	TMap<BlockEnumType, UMaterialInterface*> MaterialsMap;
+	
+	UPROPERTY(EditAnywhere)
+	TMap<BlockEnumType, UInstancedStaticMeshComponent*> BlockMeshesMap;
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-private:
+	UMaterialInstance* LoadMaterial(FString typeName);
 
+private:
+	void InitInstancedStaticMeshes();
+	void InitMaterials();
 };

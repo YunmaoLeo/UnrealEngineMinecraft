@@ -10,7 +10,6 @@
 void ANewPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
-
 	UKismetSystemLibrary::PrintString(this, TEXT("GamePlayerUse"));
 	Initialize();
 }
@@ -27,14 +26,12 @@ void ANewPlayerController::Tick(float DeltaSeconds)
 
 bool ANewPlayerController::UpdatePosition()
 {
-	// if (!IsValid(UGameplayStatics::GetPlayerPawn(GetWorld(),0)))
-	APawn* pawn = UGameplayStatics::GetPlayerPawn(GetWorld(),0);
+	APawn* pawn = UGameplayStatics::GetPlayerPawn(GetWorld(), 0);
 	if (!IsValid(pawn))
 	{
 		UKismetSystemLibrary::PrintString(this, TEXT("PawnNotValid"));
 		return false;
 	}
-	UKismetSystemLibrary::PrintString(this, TEXT("IsValid"));
 
 	FVector position = pawn->GetActorLocation();
 	int currentChunkX = position.X / chunkSize;
@@ -51,26 +48,24 @@ bool ANewPlayerController::UpdatePosition()
 
 void ANewPlayerController::Initialize()
 {
-	BlockInstances = GetWorld()->SpawnActor<ABlockActor>();
+	BlockISMActor = GetWorld()->SpawnActor<ABlockActor>();
+	manager = new BlockInstancesManager(BlockISMActor);
 	chunkSize = chunkElementCount * unitBlockSize;
 	AddChunks();
 }
 
 void ANewPlayerController::AddChunks()
 {
-	UWorld* World = GetWorld();
+	int index = 0;
 	for (int x = chunkX - renderRange; x <= chunkX + renderRange; x++)
 	{
 		for (int y = chunkY - renderRange; y <= chunkY + renderRange; y++)
 		{
-			FVector Location(x * chunkSize, y * chunkSize, 750);
-
+			FVector Location(x * chunkSize, y * chunkSize, 0);
 			FTransform transform;
 			transform.SetLocation(Location);
-			if (BlockInstances->mesh)
-			{
-				BlockInstances->mesh->AddInstance(transform);
-			}
+			manager->AddBlockInstance(BlockEnumType(index%3), transform);
+			index ++;
 		}
 	}
 }

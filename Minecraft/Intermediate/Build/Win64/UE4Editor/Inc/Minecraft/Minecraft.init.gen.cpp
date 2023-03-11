@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeMinecraft_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x4E635EA1,
-				0x2F84DF5C,
+				0xE438DDB0,
+				0x65F8B70E,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

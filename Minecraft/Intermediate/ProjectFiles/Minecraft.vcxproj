@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F2D200FC-8408-4582-9F84-4EBBEEEB3EB1}</ProjectGuid>
+    <ProjectGuid>{79235E85-CD95-4302-A9B3-0091978EA845}</ProjectGuid>
     <Keyword>MakeFileProj</Keyword>
     <RootNamespace>Minecraft</RootNamespace>
     <PlatformToolset>v142</PlatformToolset>
@@ -283,6 +283,8 @@
     <AdditionalOptions>/std:c++14</AdditionalOptions>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\Minecraft\World\WorldConstants.cpp" />
+    <ClInclude Include="..\..\Source\Minecraft\World\WorldConstants.h" />
     <None Include="..\..\Minecraft.uproject" />
     <None Include="..\..\Source\Minecraft.Target.cs" />
     <None Include="..\..\Source\MinecraftEditor.Target.cs" />
@@ -292,10 +294,13 @@
     <None Include="..\..\Config\DefaultGame.ini" />
     <None Include="..\..\Config\DefaultInput.ini" />
     <None Include="..\..\Source\Minecraft\Minecraft.Build.cs" />
+    <ClCompile Include="..\..\Source\Minecraft\Blocks\BlockInstancesManager.cpp" />
     <ClCompile Include="..\..\Source\Minecraft\Minecraft.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>
       <ForcedIncludeFiles>$(NMakeForcedIncludes);$(SolutionDir)Intermediate\Build\Win64\UE4Editor\Development\Minecraft\Definitions.Minecraft.h;$(SolutionDir)Intermediate\Build\Win64\MinecraftEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h</ForcedIncludeFiles>
     </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\Blocks\BlockInstancesManager.h" />
+    <ClInclude Include="..\..\Source\Minecraft\Blocks\BlockEnumType.h" />
     <ClInclude Include="..\..\Source\Minecraft\Minecraft.h" />
     <ClCompile Include="..\..\Source\Minecraft\MinecraftCharacter.cpp">
       <AdditionalIncludeDirectories>$(NMakeIncludeSearchPath);F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\cudamanager;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\filebuf;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\foundation;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\pvd;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PxShared\include\task;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\cooking;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\common;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\extensions;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\PhysX_3.4\Include\geometry;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\clothing;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\nvparameterized;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\legacy;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\include\PhysX3;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\common\include\autogen;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\framework\include\autogen;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include;F:\UE_4.25\Engine\Source\ThirdParty\PhysX3\APEX_1.4\shared\internal\include;</AdditionalIncludeDirectories>

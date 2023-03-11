@@ -1,8 +1,8 @@
-﻿Log file open, 03/10/23 00:35:17
+﻿Log file open, 03/11/23 16:04:45
 LogInit: Display: Running engine for game: Minecraft
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 35 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.426090
+LogStats: Stats thread started at 0.274595
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -195,457 +195,585 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
-[2023.03.09-16.35.17:544][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2023.03.09-16.35.17:544][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
-[2023.03.09-16.35.17:544][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
-[2023.03.09-16.35.17:549][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:549][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2023.03.09-16.35.17:549][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2023.03.09-16.35.17:549][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:549][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2023.03.09-16.35.17:550][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2023.03.09-16.35.17:550][  0]LogInit: Selected Device Profile: [Windows]
-[2023.03.09-16.35.17:550][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2023.03.09-16.35.17:551][  0]LogHAL: Display: Platform has ~ 32 GB [34145763328 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2023.03.09-16.35.17:551][  0]LogInit: Going up to parent DeviceProfile []
-[2023.03.09-16.35.17:551][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2023.03.09-16.35.17:551][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2023.03.09-16.35.17:552][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2023.03.09-16.35.17:552][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2023.03.09-16.35.17:552][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2023.03.09-16.35.17:552][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2023.03.09-16.35.17:552][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2023.03.09-16.35.17:552][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2023.03.09-16.35.17:552][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
-[2023.03.09-16.35.17:552][  0]LogInit: Computer: ZLEOLIU-PC3
-[2023.03.09-16.35.17:552][  0]LogInit: User: Administrator
-[2023.03.09-16.35.17:552][  0]LogInit: CPU Page size=4096, Cores=6
-[2023.03.09-16.35.17:552][  0]LogInit: High frequency timer resolution =14.318180 MHz
-[2023.03.09-16.35.17:552][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
-[2023.03.09-16.35.17:552][  0]LogMemory: Platform Memory Stats for Windows
-[2023.03.09-16.35.17:552][  0]LogMemory: Process Physical Memory: 117.17 MB used, 117.17 MB peak
-[2023.03.09-16.35.17:552][  0]LogMemory: Process Virtual Memory: 97.28 MB used, 97.28 MB peak
-[2023.03.09-16.35.17:552][  0]LogMemory: Physical Memory: 9123.52 MB used,  23440.41 MB free, 32563.94 MB total
-[2023.03.09-16.35.17:552][  0]LogMemory: Virtual Memory: 5166.80 MB used,  134212560.00 MB free, 134217728.00 MB total
-[2023.03.09-16.35.17:560][  0]LogWindows: WindowsPlatformFeatures enabled
-[2023.03.09-16.35.17:710][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2023.03.09-16.35.17:710][  0]LogInit: Overriding language with editor language configuration option (en).
-[2023.03.09-16.35.17:710][  0]LogInit: Overriding locale with editor culture configuration option ().
-[2023.03.09-16.35.17:710][  0]LogInit: Using OS detected locale (zh-CN).
-[2023.03.09-16.35.17:850][  0]LogInit: Setting process to per monitor DPI aware
-[2023.03.09-16.35.17:928][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2023.03.09-16.35.17:928][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2023.03.09-16.35.18:018][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.03.09-16.35.18:018][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2023.03.09-16.35.18:018][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2023.03.09-16.35.18:018][  0]LogD3D11RHI: D3D11 adapters:
-[2023.03.09-16.35.18:379][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Ti' (Feature Level 11_0)
-[2023.03.09-16.35.18:379][  0]LogD3D11RHI:       8038/0/16281 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2023.03.09-16.35.18:412][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2023.03.09-16.35.18:412][  0]LogD3D11RHI:       0/0/16281 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2023.03.09-16.35.18:412][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2023.03.09-16.35.18:419][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2023.03.09-16.35.18:419][  0]LogD3D11RHI:     GPU DeviceId: 0x2414 (for the marketing name, search the web for "GPU Device Id")
-[2023.03.09-16.35.18:419][  0]LogWindows: EnumDisplayDevices:
-[2023.03.09-16.35.18:419][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Ti' (P:1 D:1)
-[2023.03.09-16.35.18:419][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2023.03.09-16.35.18:419][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2023.03.09-16.35.18:420][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
-[2023.03.09-16.35.18:420][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2023.03.09-16.35.18:420][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Ti
-[2023.03.09-16.35.18:420][  0]LogD3D11RHI:   Driver Version: 527.56 (internal:31.0.15.2756, unified:527.56)
-[2023.03.09-16.35.18:420][  0]LogD3D11RHI:      Driver Date: 12-5-2022
-[2023.03.09-16.35.18:420][  0]LogRHI: Texture pool is 5626 MB (70% of 8038 MB)
-[2023.03.09-16.35.18:473][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2023.03.09-16.35.18:473][  0]LogD3D11RHI: Async texture creation enabled
-[2023.03.09-16.35.18:473][  0]LogD3D11RHI: Array index from any shader is supported
-[2023.03.09-16.35.18:474][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061080).
-[2023.03.09-16.35.18:495][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2023.03.09-16.35.19:105][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2023.03.09-16.35.19:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2023.03.09-16.35.19:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2023.03.09-16.35.19:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2023.03.09-16.35.19:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2023.03.09-16.35.19:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2023.03.09-16.35.19:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2023.03.09-16.35.19:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2023.03.09-16.35.19:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2023.03.09-16.35.19:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2023.03.09-16.35.19:123][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2023.03.09-16.35.19:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2023.03.09-16.35.19:144][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2023.03.09-16.35.19:153][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2023.03.09-16.35.19:161][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2023.03.09-16.35.19:168][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2023.03.09-16.35.19:176][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2023.03.09-16.35.19:183][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2023.03.09-16.35.19:191][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2023.03.09-16.35.19:199][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2023.03.09-16.35.19:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2023.03.09-16.35.19:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2023.03.09-16.35.19:232][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2023.03.09-16.35.19:232][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2023.03.09-16.35.19:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2023.03.09-16.35.19:248][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2023.03.09-16.35.19:255][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2023.03.09-16.35.19:263][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2023.03.09-16.35.19:263][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2023.03.09-16.35.19:279][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2023.03.09-16.35.19:403][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../ue4_project/UnrealEngineMinecraft/Minecraft/Intermediate/Shaders/WorkingDirectory/14016/).
-[2023.03.09-16.35.19:403][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/UnrealShaderWorkingDir/CB677DDF4B395E7B6E18E597FCDCAF15/'.
-[2023.03.09-16.35.19:404][  0]LogXGEController: Cleaning working directory: C:/Users/Administrator/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2023.03.09-16.35.19:404][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2023.03.09-16.35.19:404][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2023.03.09-16.35.19:404][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2023.03.09-16.35.20:079][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2023.03.09-16.35.20:118][  0]LogDerivedDataCache: Loaded boot cache 0.04s 79MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2023.03.09-16.35.20:118][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2023.03.09-16.35.20:118][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../ue4_project/UnrealEngineMinecraft/Minecraft/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2023.03.09-16.35.20:118][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2023.03.09-16.35.20:118][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../ue4_project/UnrealEngineMinecraft/Minecraft/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.03.09-16.35.20:118][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2023.03.09-16.35.20:127][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2023.03.09-16.35.20:127][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2023.03.09-16.35.20:127][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2023.03.09-16.35.20:128][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2023.03.09-16.35.20:128][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2023.03.09-16.35.20:128][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2023.03.09-16.35.20:168][  0]LogSlate: Using FreeType 2.10.0
-[2023.03.09-16.35.20:169][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2023.03.09-16.35.20:189][  0]LogAssetRegistry: FAssetRegistry took 0.0020 seconds to start up
-[2023.03.09-16.35.20:365][  0]LogInit: Selected Device Profile: [Windows]
-[2023.03.09-16.35.20:572][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2023.03.09-16.35.20:572][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2023.03.09-16.35.20:572][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2023.03.09-16.35.20:572][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2023.03.09-16.35.20:572][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2023.03.09-16.35.20:585][  0]LogNetVersion: Minecraft 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1386176360)
-[2023.03.09-16.35.20:913][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000024D7A710340), frame # 0
-[2023.03.09-16.35.20:913][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D7A66C400), frame # 0
-[2023.03.09-16.35.20:914][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D7A6A4800), frame # 0
-[2023.03.09-16.35.20:946][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.027062 seconds
-[2023.03.09-16.35.20:950][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2023.03.09-16.35.20:950][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2023.03.09-16.35.20:950][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2023.03.09-16.35.21:528][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2023.03.09-16.35.21:534][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2023.03.09-16.35.21:740][  0]SourceControl: Source control is disabled
-[2023.03.09-16.35.21:740][  0]SourceControl: Source control is disabled
-[2023.03.09-16.35.21:764][  0]SourceControl: Source control is disabled
-[2023.03.09-16.35.21:769][  0]SourceControl: Source control is disabled
-[2023.03.09-16.35.21:782][  0]SourceControl: Source control is disabled
-[2023.03.09-16.35.22:169][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2023.03.09-16.35.22:191][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2023.03.09-16.35.22:191][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2023.03.09-16.35.22:248][  0]LogOcInput: OculusInput pre-init called
-[2023.03.09-16.35.22:262][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2023.03.09-16.35.22:262][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2023.03.09-16.35.22:328][  0]LogEngine: Initializing Engine...
-[2023.03.09-16.35.22:329][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2023.03.09-16.35.22:329][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2023.03.09-16.35.22:330][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2023.03.09-16.35.22:421][  0]LogInit: Initializing FReadOnlyCVARCache
-[2023.03.09-16.35.22:431][  0]LogAIModule: Creating AISystem for world Untitled
-[2023.03.09-16.35.22:431][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D051F4C00), frame # 0
-[2023.03.09-16.35.22:431][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D05219E40), frame # 0
-[2023.03.09-16.35.22:439][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2023.03.09-16.35.22:439][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2023.03.09-16.35.22:439][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2023.03.09-16.35.22:439][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2023.03.09-16.35.22:440][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2023.03.09-16.35.22:440][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2023.03.09-16.35.22:440][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2023.03.09-16.35.22:440][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2023.03.09-16.35.22:440][  0]LogAudio: Display: Using built-in audio occlusion.
-[2023.03.09-16.35.22:440][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2023.03.09-16.35.22:466][  0]LogAudioMixer: Display: 0: FrontLeft
-[2023.03.09-16.35.22:466][  0]LogAudioMixer: Display: 1: FrontRight
-[2023.03.09-16.35.22:529][  0]LogAudioMixer: Display: Using Audio Device U27UD (NVIDIA High Definition Audio)
-[2023.03.09-16.35.22:531][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2023.03.09-16.35.22:533][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2023.03.09-16.35.22:533][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2023.03.09-16.35.22:534][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2023.03.09-16.35.22:535][  0]LogInit: FAudioDevice initialized.
-[2023.03.09-16.35.22:535][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2023.03.09-16.35.22:579][  0]LogDerivedDataCache: Saved boot cache 0.04s 79MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2023.03.09-16.35.22:580][  0]LogInit: Texture streaming: Enabled
-[2023.03.09-16.35.22:598][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2023.03.09-16.35.22:598][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2023.03.09-16.35.22:601][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2023.03.09-16.35.22:637][  0]LogInit: Transaction tracking system initialized
-[2023.03.09-16.35.22:668][  0]BlueprintLog: New page: Editor Load
-[2023.03.09-16.35.22:829][  0]LocalizationService: Localization service is disabled
-[2023.03.09-16.35.23:010][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2023.03.09-16.35.23:010][  0]LogCook: Display: Mobile HDR setting 1
-[2023.03.09-16.35.23:162][  0]LogFileCache: Scanning file cache for directory 'F:/ue4_project/UnrealEngineMinecraft/Minecraft/Content/' took 0.00s
-[2023.03.09-16.35.23:348][  0]SourceControl: Source control is disabled
-[2023.03.09-16.35.23:348][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.371
-[2023.03.09-16.35.23:348][  0]Cmd: MAP LOAD FILE="../../../../ue4_project/UnrealEngineMinecraft/Minecraft/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2023.03.09-16.35.23:348][  0]LightingResults: New page: Lighting Build
-[2023.03.09-16.35.23:349][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2023.03.09-16.35.23:349][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2023.03.09-16.35.23:349][  0]MapCheck: New page: Map Check
-[2023.03.09-16.35.23:349][  0]LightingResults: New page: Lighting Build
-[2023.03.09-16.35.23:357][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000024D051F4C00), frame # 0
-[2023.03.09-16.35.23:357][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000024D05219E40), frame # 0
-[2023.03.09-16.35.23:358][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
-[2023.03.09-16.35.23:403][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
-[2023.03.09-16.35.23:403][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000024D05593400), frame # 0
-[2023.03.09-16.35.23:403][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000024D79CE9580), frame # 0
-[2023.03.09-16.35.23:416][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2023.03.09-16.35.23:427][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
-[2023.03.09-16.35.23:427][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2023.03.09-16.35.23:428][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.115ms to complete.
-[2023.03.09-16.35.23:428][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.080
-[2023.03.09-16.35.23:429][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.453
-[2023.03.09-16.35.23:571][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.03.09-16.35.23:577][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.03.09-16.35.23:581][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.03.09-16.35.23:586][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2023.03.09-16.35.23:594][  0]LogCollectionManager: Loaded 0 collections in 0.001195 seconds
-[2023.03.09-16.35.23:606][  0]LogFileCache: Scanning file cache for directory 'F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Collections/' took 0.00s
-[2023.03.09-16.35.23:606][  0]LogFileCache: Scanning file cache for directory 'F:/ue4_project/UnrealEngineMinecraft/Minecraft/Content/Developers/Administrator/Collections/' took 0.00s
-[2023.03.09-16.35.23:606][  0]LogFileCache: Scanning file cache for directory 'F:/ue4_project/UnrealEngineMinecraft/Minecraft/Content/Collections/' took 0.00s
-[2023.03.09-16.35.23:606][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3435 classes and 824 folders.
-[2023.03.09-16.35.23:608][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2023.03.09-16.35.23:642][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2023.03.09-16.35.23:643][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
-[2023.03.09-16.35.23:672][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2023.03.09-16.35.23:672][  0]LogLoad: (Engine Initialization) Total time: 7.70 seconds
-[2023.03.09-16.35.23:672][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2023.03.09-16.35.23:714][  0]LogAssetRegistry: Asset discovery search completed in 3.5270 seconds
-[2023.03.09-16.35.23:717][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000005 seconds (updated 0 objects)
-[2023.03.09-16.35.23:718][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2023.03.09-16.35.23:724][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2023.03.09-16.35.23:725][  0]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2023.03.09-16.35.23:728][  0]LogSlate: Took 0.000083 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2023.03.09-16.35.24:042][  2]LogRenderer: Reallocating scene render targets to support 776x444 Format 10 NumSamples 1 (Frame:1).
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
+[2023.03.11-08.04.45:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.03.11-08.04.45:599][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.03.11-08.04.45:600][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.03.11-08.04.45:600][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
+[2023.03.11-08.04.45:600][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
+[2023.03.11-08.04.45:603][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.03.11-08.04.45:603][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2023.03.11-08.04.45:604][  0]LogInit: Selected Device Profile: [Windows]
+[2023.03.11-08.04.45:604][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2023.03.11-08.04.45:604][  0]LogHAL: Display: Platform has ~ 32 GB [34145763328 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.03.11-08.04.45:604][  0]LogInit: Going up to parent DeviceProfile []
+[2023.03.11-08.04.45:604][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.03.11-08.04.45:604][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Scalability.ini]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.03.11-08.04.45:605][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Config/Windows/Engine.ini]
+[2023.03.11-08.04.45:605][  0]LogInit: Computer: ZLEOLIU-PC3
+[2023.03.11-08.04.45:605][  0]LogInit: User: Administrator
+[2023.03.11-08.04.45:605][  0]LogInit: CPU Page size=4096, Cores=6
+[2023.03.11-08.04.45:605][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2023.03.11-08.04.45:605][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2023.03.11-08.04.45:606][  0]LogMemory: Platform Memory Stats for Windows
+[2023.03.11-08.04.45:606][  0]LogMemory: Process Physical Memory: 117.17 MB used, 117.17 MB peak
+[2023.03.11-08.04.45:606][  0]LogMemory: Process Virtual Memory: 105.27 MB used, 105.27 MB peak
+[2023.03.11-08.04.45:606][  0]LogMemory: Physical Memory: 16572.54 MB used,  15991.39 MB free, 32563.94 MB total
+[2023.03.11-08.04.45:606][  0]LogMemory: Virtual Memory: 5175.05 MB used,  134212552.00 MB free, 134217728.00 MB total
+[2023.03.11-08.04.45:610][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.03.11-08.04.45:757][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.03.11-08.04.45:757][  0]LogInit: Overriding language with editor language configuration option (en).
+[2023.03.11-08.04.45:757][  0]LogInit: Overriding locale with editor culture configuration option ().
+[2023.03.11-08.04.45:757][  0]LogInit: Using OS detected locale (zh-CN).
+[2023.03.11-08.04.45:906][  0]LogInit: Setting process to per monitor DPI aware
+[2023.03.11-08.04.45:990][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.03.11-08.04.45:991][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.03.11-08.04.46:090][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.03.11-08.04.46:090][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.03.11-08.04.46:090][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.03.11-08.04.46:090][  0]LogD3D11RHI: D3D11 adapters:
+[2023.03.11-08.04.46:516][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 3060 Ti' (Feature Level 11_0)
+[2023.03.11-08.04.46:516][  0]LogD3D11RHI:       8038/0/16281 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.03.11-08.04.46:549][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.03.11-08.04.46:549][  0]LogD3D11RHI:       0/0/16281 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.03.11-08.04.46:549][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.03.11-08.04.46:557][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.03.11-08.04.46:557][  0]LogD3D11RHI:     GPU DeviceId: 0x2414 (for the marketing name, search the web for "GPU Device Id")
+[2023.03.11-08.04.46:557][  0]LogWindows: EnumDisplayDevices:
+[2023.03.11-08.04.46:557][  0]LogWindows:    0. 'NVIDIA GeForce RTX 3060 Ti' (P:1 D:1)
+[2023.03.11-08.04.46:557][  0]LogWindows:    1. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2023.03.11-08.04.46:558][  0]LogWindows:    2. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2023.03.11-08.04.46:558][  0]LogWindows:    3. 'NVIDIA GeForce RTX 3060 Ti' (P:0 D:0)
+[2023.03.11-08.04.46:559][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.03.11-08.04.46:559][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 3060 Ti
+[2023.03.11-08.04.46:559][  0]LogD3D11RHI:   Driver Version: 527.56 (internal:31.0.15.2756, unified:527.56)
+[2023.03.11-08.04.46:559][  0]LogD3D11RHI:      Driver Date: 12-5-2022
+[2023.03.11-08.04.46:559][  0]LogRHI: Texture pool is 5626 MB (70% of 8038 MB)
+[2023.03.11-08.04.46:619][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.03.11-08.04.46:619][  0]LogD3D11RHI: Async texture creation enabled
+[2023.03.11-08.04.46:619][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.03.11-08.04.46:621][  0]LogD3D11RHI: HDR output is supported on display 0 (NvId: 0x80061080).
+[2023.03.11-08.04.46:643][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2023.03.11-08.04.47:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2023.03.11-08.04.47:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.03.11-08.04.47:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.03.11-08.04.47:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.03.11-08.04.47:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.03.11-08.04.47:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.03.11-08.04.47:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.03.11-08.04.47:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.03.11-08.04.47:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.03.11-08.04.47:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.03.11-08.04.47:462][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.03.11-08.04.47:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.03.11-08.04.47:485][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.03.11-08.04.47:493][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.03.11-08.04.47:502][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2023.03.11-08.04.47:510][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.03.11-08.04.47:519][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.03.11-08.04.47:527][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2023.03.11-08.04.47:535][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2023.03.11-08.04.47:545][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2023.03.11-08.04.47:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2023.03.11-08.04.47:564][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2023.03.11-08.04.47:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.03.11-08.04.47:577][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.03.11-08.04.47:585][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2023.03.11-08.04.47:593][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.03.11-08.04.47:602][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.03.11-08.04.47:610][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.03.11-08.04.47:610][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2023.03.11-08.04.47:626][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.03.11-08.04.47:751][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../ue4_project/UnrealEngineMinecraft/Minecraft/Intermediate/Shaders/WorkingDirectory/11120/).
+[2023.03.11-08.04.47:751][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Administrator/AppData/Local/Temp/UnrealShaderWorkingDir/58C39C3E4A1C86790243FB82BBA6039E/'.
+[2023.03.11-08.04.47:752][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.03.11-08.04.47:752][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2023.03.11-08.04.47:752][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2023.03.11-08.04.48:422][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2023.03.11-08.04.48:457][  0]LogDerivedDataCache: Loaded boot cache 0.04s 79MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2023.03.11-08.04.48:457][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2023.03.11-08.04.48:457][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../ue4_project/UnrealEngineMinecraft/Minecraft/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.03.11-08.04.48:457][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2023.03.11-08.04.48:457][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../ue4_project/UnrealEngineMinecraft/Minecraft/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.03.11-08.04.48:457][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2023.03.11-08.04.48:466][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2023.03.11-08.04.48:466][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.03.11-08.04.48:466][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2023.03.11-08.04.48:468][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Administrator/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.03.11-08.04.48:468][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2023.03.11-08.04.48:468][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2023.03.11-08.04.48:507][  0]LogSlate: Using FreeType 2.10.0
+[2023.03.11-08.04.48:508][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.03.11-08.04.48:528][  0]LogAssetRegistry: FAssetRegistry took 0.0021 seconds to start up
+[2023.03.11-08.04.48:711][  0]LogInit: Selected Device Profile: [Windows]
+[2023.03.11-08.04.48:922][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.03.11-08.04.48:922][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2023.03.11-08.04.48:922][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.03.11-08.04.48:922][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2023.03.11-08.04.48:922][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.03.11-08.04.48:936][  0]LogNetVersion: Minecraft 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1386176360)
+[2023.03.11-08.04.49:269][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000022A26BDEAC0), frame # 0
+[2023.03.11-08.04.49:269][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022A26B86AC0), frame # 0
+[2023.03.11-08.04.49:270][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022A26C04800), frame # 0
+[2023.03.11-08.04.49:301][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.026644 seconds
+[2023.03.11-08.04.49:305][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2023.03.11-08.04.49:305][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2023.03.11-08.04.49:305][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.03.11-08.04.49:890][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2023.03.11-08.04.49:896][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2023.03.11-08.04.49:941][  0]LogTemp: stone: load Material success
+[2023.03.11-08.04.49:944][  0]LogTemp: grass: load Material success
+[2023.03.11-08.04.49:946][  0]LogTemp: dirt: load Material success
+[2023.03.11-08.04.50:120][  0]SourceControl: Source control is disabled
+[2023.03.11-08.04.50:120][  0]SourceControl: Source control is disabled
+[2023.03.11-08.04.50:143][  0]SourceControl: Source control is disabled
+[2023.03.11-08.04.50:149][  0]SourceControl: Source control is disabled
+[2023.03.11-08.04.50:165][  0]SourceControl: Source control is disabled
+[2023.03.11-08.04.50:566][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.03.11-08.04.50:590][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.03.11-08.04.50:590][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.03.11-08.04.50:651][  0]LogOcInput: OculusInput pre-init called
+[2023.03.11-08.04.50:665][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2023.03.11-08.04.50:665][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2023.03.11-08.04.50:736][  0]LogEngine: Initializing Engine...
+[2023.03.11-08.04.50:737][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.03.11-08.04.50:737][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2023.03.11-08.04.50:738][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.03.11-08.04.50:834][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.03.11-08.04.50:843][  0]LogAIModule: Creating AISystem for world Untitled
+[2023.03.11-08.04.50:843][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022A2F553C00), frame # 0
+[2023.03.11-08.04.50:843][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022A2F5A5440), frame # 0
+[2023.03.11-08.04.50:849][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.11-08.04.50:849][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.11-08.04.50:849][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.11-08.04.50:849][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.11-08.04.50:849][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.11-08.04.50:849][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.11-08.04.50:849][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.11-08.04.50:849][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.11-08.04.50:850][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.11-08.04.50:850][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.11-08.04.50:876][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.11-08.04.50:876][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.03.11-08.04.50:919][  0]LogAudioMixer: Display: Using Audio Device 耳机 (WH-1000XM4 Stereo)
+[2023.03.11-08.04.50:920][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.11-08.04.50:922][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.11-08.04.50:922][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.11-08.04.50:923][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.11-08.04.50:924][  0]LogInit: FAudioDevice initialized.
+[2023.03.11-08.04.50:925][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.03.11-08.04.50:970][  0]LogDerivedDataCache: Saved boot cache 0.05s 79MB C:/Users/Administrator/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2023.03.11-08.04.50:971][  0]LogInit: Texture streaming: Enabled
+[2023.03.11-08.04.50:988][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2023.03.11-08.04.50:988][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2023.03.11-08.04.50:991][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2023.03.11-08.04.51:028][  0]LogInit: Transaction tracking system initialized
+[2023.03.11-08.04.51:061][  0]BlueprintLog: New page: Editor Load
+[2023.03.11-08.04.51:226][  0]LocalizationService: Localization service is disabled
+[2023.03.11-08.04.51:419][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2023.03.11-08.04.51:419][  0]LogCook: Display: Mobile HDR setting 1
+[2023.03.11-08.04.51:578][  0]LogFileCache: Scanning file cache for directory 'F:/ue4_project/UnrealEngineMinecraft/Minecraft/Content/' took 0.00s
+[2023.03.11-08.04.51:766][  0]SourceControl: Source control is disabled
+[2023.03.11-08.04.51:767][  0]LogUnrealEdMisc: Loading editor; pre map load, took 7.467
+[2023.03.11-08.04.51:767][  0]Cmd: MAP LOAD FILE="../../../../ue4_project/UnrealEngineMinecraft/Minecraft/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2023.03.11-08.04.51:767][  0]LightingResults: New page: Lighting Build
+[2023.03.11-08.04.51:767][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.03.11-08.04.51:767][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-08.04.51:767][  0]MapCheck: New page: Map Check
+[2023.03.11-08.04.51:768][  0]LightingResults: New page: Lighting Build
+[2023.03.11-08.04.51:782][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022A2F553C00), frame # 0
+[2023.03.11-08.04.51:782][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022A2F5A5440), frame # 0
+[2023.03.11-08.04.51:783][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2023.03.11-08.04.51:793][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.03.11-08.04.51:793][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022A2FFD7E00), frame # 0
+[2023.03.11-08.04.51:793][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022A2D880180), frame # 0
+[2023.03.11-08.04.51:810][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2023.03.11-08.04.51:819][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.50ms
+[2023.03.11-08.04.51:819][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2023.03.11-08.04.51:820][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.183ms to complete.
+[2023.03.11-08.04.51:820][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.053
+[2023.03.11-08.04.51:822][  0]LogUnrealEdMisc: Total Editor Startup Time, took 7.523
+[2023.03.11-08.04.51:926][  0]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2023.03.11-08.04.51:976][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-08.04.51:982][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-08.04.51:989][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-08.04.51:996][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-08.04.52:006][  0]LogCollectionManager: Loaded 0 collections in 0.001495 seconds
+[2023.03.11-08.04.52:018][  0]LogFileCache: Scanning file cache for directory 'F:/ue4_project/UnrealEngineMinecraft/Minecraft/Saved/Collections/' took 0.00s
+[2023.03.11-08.04.52:018][  0]LogFileCache: Scanning file cache for directory 'F:/ue4_project/UnrealEngineMinecraft/Minecraft/Content/Developers/Administrator/Collections/' took 0.00s
+[2023.03.11-08.04.52:018][  0]LogFileCache: Scanning file cache for directory 'F:/ue4_project/UnrealEngineMinecraft/Minecraft/Content/Collections/' took 0.00s
+[2023.03.11-08.04.52:018][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 3435 classes and 824 folders.
+[2023.03.11-08.04.52:020][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2023.03.11-08.04.52:055][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2023.03.11-08.04.52:059][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2023.03.11-08.04.52:095][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2023.03.11-08.04.52:095][  0]LogLoad: (Engine Initialization) Total time: 7.80 seconds
+[2023.03.11-08.04.52:095][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.03.11-08.04.52:137][  0]LogAssetRegistry: Asset discovery search completed in 3.6092 seconds
+[2023.03.11-08.04.52:139][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2023.03.11-08.04.52:141][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.03.11-08.04.52:146][  0]LogSlate: Took 0.000125 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.03.11-08.04.52:147][  0]LogSlate: Took 0.000093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2023.03.11-08.04.52:150][  0]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2023.03.11-08.04.52:151][  0]LogSlate: Took 0.000085 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2023.03.11-08.04.52:183][  0]LogSlate: Took 0.001040 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2023.03.11-08.04.52:250][  1]LogRenderer: Reallocating scene render targets to support 732x364 Format 10 NumSamples 1 (Frame:1).
+[2023.03.11-08.04.53:591][ 96]LogRenderer: Reallocating scene render targets to support 732x796 Format 10 NumSamples 1 (Frame:98).
+[2023.03.11-08.04.56:040][369]Candidate modules for hot reload:
+[2023.03.11-08.04.56:040][369]  Minecraft
+[2023.03.11-08.04.56:040][369]Launching UnrealBuildTool... [F:/UE_4.25/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Minecraft,8032 MinecraftEditor Win64 Development -Project="F:/ue4_project/UnrealEngineMinecraft/Minecraft/Minecraft.uproject" "F:/ue4_project/UnrealEngineMinecraft/Minecraft/Minecraft.uproject"  -IgnoreJunk]
+[2023.03.11-08.04.56:055][369]Warning: Starting HotReload took  0.0s.
+[2023.03.11-08.04.58:077][537]CompilerResultsLog: New page: Compilation - 2023年3月12日 上午12:04:58
+[2023.03.11-08.04.58:077][537]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (F:\ue4_project\UnrealEngineMinecraft).
+[2023.03.11-08.04.58:077][537]CompilerResultsLog: Building MinecraftEditor...
+[2023.03.11-08.04.58:077][537]CompilerResultsLog: Using Visual Studio 2019 14.29.30147 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2023.03.11-08.04.58:077][537]CompilerResultsLog: Building 3 actions with 12 processes...
+[2023.03.11-08.04.58:077][537]CompilerResultsLog:   [1/3] UE4Editor-Minecraft-8032.lib
+[2023.03.11-08.04.58:077][537]CompilerResultsLog:     ???ڴ????? F:\ue4_project\UnrealEngineMinecraft\Minecraft\Intermediate\Build\Win64\UE4Editor\Development\Minecraft\UE4Editor-Minecraft-8032.lib ?Ͷ??? F:\ue4_project\UnrealEngineMinecraft\Minecraft\Intermediate\Build\Win64\UE4Editor\Development\Minecraft\UE4Editor-Minecraft-8032.exp
+[2023.03.11-08.04.58:077][537]CompilerResultsLog:   [2/3] UE4Editor-Minecraft-8032.dll
+[2023.03.11-08.04.58:077][537]CompilerResultsLog:     ???ڴ????? F:\ue4_project\UnrealEngineMinecraft\Minecraft\Intermediate\Build\Win64\UE4Editor\Development\Minecraft\UE4Editor-Minecraft-8032.suppressed.lib ?Ͷ??? F:\ue4_project\UnrealEngineMinecraft\Minecraft\Intermediate\Build\Win64\UE4Editor\Development\Minecraft\UE4Editor-Minecraft-8032.suppressed.exp
+[2023.03.11-08.04.58:077][537]CompilerResultsLog:   [3/3] MinecraftEditor.target
+[2023.03.11-08.04.58:077][537]CompilerResultsLog: Total time in Parallel executor: 1.02 seconds
+[2023.03.11-08.04.58:077][537]CompilerResultsLog: Total execution time: 1.67 seconds
+[2023.03.11-08.04.58:077][537]LogMainFrame: MainFrame: Module compiling took 2.040 seconds
+[2023.03.11-08.04.58:155][537]LogClass: BlockType HotReload.
+[2023.03.11-08.04.58:156][537]LogTemp: stone: load Material success
+[2023.03.11-08.04.58:156][537]LogTemp: grass: load Material success
+[2023.03.11-08.04.58:156][537]LogTemp: dirt: load Material success
+[2023.03.11-08.04.58:157][537]LogHotReload: Re-instancing BlockActor after hot-reload.
+[2023.03.11-08.04.58:164][537]LogContentBrowser: Native class hierarchy updated for 'Minecraft' in 0.0005 seconds. Added 8 classes and 3 folders.
+[2023.03.11-08.04.58:167][537]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.11-08.04.58:208][537]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 3435 classes and 824 folders.
+[2023.03.11-08.04.58:208][537]Display: HotReload took  2.2s.
+[2023.03.11-08.04.58:226][537]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NotoNaskhArabicUI-Regular.ttf' (144K)
+[2023.03.11-08.04.58:226][537]LogSlate: Last resort fallback font was requested. Font: '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf', Character: 'Ͷ (U+0376)'
+[2023.03.11-08.04.58:228][537]LogSlate: Took 0.001187 seconds to synchronously load lazily loaded font '../../../Engine/Content/SlateDebug/Fonts/LastResort.ttf' (5269K)
+[2023.03.11-08.04.59:698][693]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.11-08.04.59:710][693]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.11-08.04.59:710][693]PIE: New page: PIE session: FirstPersonExampleMap (2023年3月12日 上午12:04:59)
+[2023.03.11-08.04.59:711][693]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2023.03.11-08.04.59:712][693]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2023.03.11-08.04.59:712][693]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.03.11-08.04.59:721][693]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009062s)
+[2023.03.11-08.04.59:723][693]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.03.11-08.04.59:723][693]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000022A4C629600), frame # 693
+[2023.03.11-08.04.59:723][693]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000022A4CECC540), frame # 693
+[2023.03.11-08.04.59:724][693]LogPlayLevel: PIE: World Init took: (0.002330s)
+[2023.03.11-08.04.59:724][693]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.011604s)
+[2023.03.11-08.04.59:739][693]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.11-08.04.59:740][693]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.11-08.04.59:740][693]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.11-08.04.59:740][693]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.11-08.04.59:740][693]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.11-08.04.59:740][693]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.11-08.04.59:740][693]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.11-08.04.59:740][693]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.11-08.04.59:740][693]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.11-08.04.59:741][693]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.11-08.04.59:741][693]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.11-08.04.59:746][693]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.11-08.04.59:746][693]LogAudioMixer: Display: 1: FrontRight
+[2023.03.11-08.04.59:765][693]LogAudioMixer: Display: Using Audio Device 耳机 (WH-1000XM4 Stereo)
+[2023.03.11-08.04.59:765][693]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.11-08.04.59:765][693]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.11-08.04.59:765][693]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.11-08.04.59:765][693]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.11-08.04.59:775][693]LogInit: FAudioDevice initialized.
+[2023.03.11-08.04.59:779][693]LogLoad: Game class is 'NewGameMode'
+[2023.03.11-08.04.59:781][693]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2023.03.11-16.04.59
+[2023.03.11-08.04.59:781][693]LogWorld: Bringing up level for play took: 0.000953
+[2023.03.11-08.04.59:781][693]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2023.03.11-08.04.59:801][693]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2023.03.11-08.04.59:802][693]LogBlueprintUserMessages: [NewPlayerController_0] GamePlayerUse
+[2023.03.11-08.04.59:802][693]LogTemp: stone: load Material success
+[2023.03.11-08.04.59:802][693]LogTemp: grass: load Material success
+[2023.03.11-08.04.59:802][693]LogTemp: dirt: load Material success
+[2023.03.11-08.04.59:802][693]LogActor: Warning: BlockActor /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BlockActor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.03.11-08.04.59:805][693]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [FirstPersonCharacter_C]
+[2023.03.11-08.04.59:805][693]PIE: Server logged in
+[2023.03.11-08.04.59:806][693]PIE: Play in editor total start time 0.1 seconds.
+[2023.03.11-08.05.24:847][682]Cmd: stat fps
+[2023.03.11-08.05.27:682][ 22]Cmd: memory
+[2023.03.11-08.05.27:682][ 22]Command not recognized: memory
+[2023.03.11-08.05.40:145][517]Cmd: Stat CPULoad
+[2023.03.11-08.05.40:146][517]Command not recognized: Stat CPULoad
+[2023.03.11-08.05.46:056][226]Cmd: cpu
+[2023.03.11-08.05.46:056][226]Command not recognized: cpu
+[2023.03.11-08.05.51:241][848]Cmd: cpu
+[2023.03.11-08.05.51:241][848]Command not recognized: cpu
+[2023.03.11-08.05.53:900][167]Cmd: CPUTime.Dump
+[2023.03.11-08.05.53:900][167]LogGenericPlatformTime: Delay set to 30 second(s), started printing the CPU usage
+[2023.03.11-08.06.10:240][126]Cmd: help
+[2023.03.11-08.06.10:240][126]LogEngine: Display: Console Help:
+[2023.03.11-08.06.10:240][126]LogEngine: Display: =============
+[2023.03.11-08.06.10:240][126]LogEngine: Display:  
+[2023.03.11-08.06.10:240][126]LogEngine: Display: A console variable is a engine wide key value pair. The key is a string usually starting with the subsystem prefix followed
+[2023.03.11-08.06.10:240][126]LogEngine: Display: by '.' e.g. r.BloomQuality. The value can be of different tpe (e.g. float, int, string). A console command has no state associated with
+[2023.03.11-08.06.10:240][126]LogEngine: Display: and gets executed immediately.
+[2023.03.11-08.06.10:240][126]LogEngine: Display:  
+[2023.03.11-08.06.10:240][126]LogEngine: Display: Console variables can be put into ini files (e.g. ConsoleVariables.ini or BaseEngine.ini) with this syntax:
+[2023.03.11-08.06.10:240][126]LogEngine: Display: <Console variable> = <value>
+[2023.03.11-08.06.10:240][126]LogEngine: Display:  
+[2023.03.11-08.06.10:240][126]LogEngine: Display: DumpConsoleCommands         Lists all console variables and commands that are registered (Some are not registered)
+[2023.03.11-08.06.10:240][126]LogEngine: Display: <Console variable>          Get the console variable state
+[2023.03.11-08.06.10:240][126]LogEngine: Display: <Console variable> ?        Get the console variable help text
+[2023.03.11-08.06.10:240][126]LogEngine: Display: <Console variable> <value>  Set the console variable value
+[2023.03.11-08.06.10:240][126]LogEngine: Display: <Console command> [Params]  Execute the console command with optional parameters
+[2023.03.11-08.06.10:241][126]LogEngine: Display:  
+[2023.03.11-08.06.10:241][126]LogEngine: Display: To browse console variables open this: '../../../../ue4_project/UnrealEngineMinecraft/Minecraft/Saved/ConsoleHelp.html'
+[2023.03.11-08.06.10:241][126]LogEngine: Display:  
+[2023.03.11-08.06.10:241][126]Cmd: *
+[2023.03.11-08.06.10:255][126]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.03.11-08.06.14:406][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-08.06.14:406][573]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.03.11-08.06.14:407][573]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.11-08.06.14:407][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-08.06.14:418][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.11-08.06.14:419][573]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.11-08.06.14:440][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.11-08.06.14:446][573]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000022A4C629600), frame # 9573
+[2023.03.11-08.06.14:446][573]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000022A4CECC540), frame # 9573
+[2023.03.11-08.06.14:447][573]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.03.11-08.06.14:489][575]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2023.03.11-08.06.24:080][ 53]LogGenericPlatformTime: CPU Time for last 2885 frames:  13.3% (159.8%)
+[2023.03.11-08.06.54:232][143]LogGenericPlatformTime: CPU Time for last  90 frames:   0.4% (  4.2%)
+[2023.03.11-08.07.24:379][233]LogGenericPlatformTime: CPU Time for last  90 frames:   0.2% (  2.4%)
+[2023.03.11-08.07.54:585][323]LogGenericPlatformTime: CPU Time for last  90 frames:   0.2% (  2.3%)
+[2023.03.11-08.08.24:792][413]LogGenericPlatformTime: CPU Time for last  90 frames:   0.2% (  2.7%)
+[2023.03.11-08.08.55:051][503]LogGenericPlatformTime: CPU Time for last  90 frames:   0.2% (  2.9%)
