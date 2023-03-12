@@ -1,0 +1,48 @@
+F:\ue4_project\UnrealEngineMinecraft\Minecraft 4.27\Intermediate\Build\Win64\UE4Editor\Development\Minecraft\Definitions.Minecraft.h
+F:\ue4_project\UnrealEngineMinecraft\Minecraft 4.27\Source\Minecraft\MinecraftCharacter.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+F:\ue4_project\UnrealEngineMinecraft\Minecraft 4.27\Intermediate\Build\Win64\UE4Editor\Inc\Minecraft\MinecraftCharacter.generated.h
+F:\ue4_project\UnrealEngineMinecraft\Minecraft 4.27\Source\Minecraft\MinecraftProjectile.h
+F:\ue4_project\UnrealEngineMinecraft\Minecraft 4.27\Intermediate\Build\Win64\UE4Editor\Inc\Minecraft\MinecraftProjectile.generated.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Camera/CameraComponent.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CameraComponent.generated.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/CapsuleComponent.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Components/ShapeComponent.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ShapeComponent.generated.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CapsuleComponent.generated.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/InputSettings.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerInput.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Public\GestureRecognizer.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Public\KeyState.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PlayerInput.generated.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\InputSettings.generated.h
+F:\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayFunctionLibrary.h
+F:\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\HeadMountedDisplayTypes.h
+F:\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\IMotionController.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayTypes.generated.h
+F:\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\IIdentifiableXRDevice.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\IIdentifiableXRDevice.generated.h
+F:\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\XRGestureConfig.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\XRGestureConfig.generated.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\HeadMountedDisplayFunctionLibrary.generated.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+F:\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Classes\Kismet\GameplayStaticsTypes.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h
+F:\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\MotionControllerComponent.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Public\SceneViewExtension.h
+F:\UE_4.27\Engine\Source\Runtime\Engine\Public\SceneViewExtensionContext.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SceneViewExtensionContext.generated.h
+F:\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\LateUpdateManager.h
+F:\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay\MotionControllerComponent.generated.h
+F:\UE_4.27\Engine\Source\Runtime\HeadMountedDisplay\Public\XRMotionControllerBase.h

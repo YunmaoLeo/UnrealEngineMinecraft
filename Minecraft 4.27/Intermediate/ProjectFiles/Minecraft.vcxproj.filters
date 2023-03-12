@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Minecraft.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{C4BEF5FD-E412-41F9-8DD0-83E2806DFBD2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Minecraft.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MinecraftEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{EE839521-F65B-43CA-BFE7-DD73DFB84DFC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Minecraft">
+      <UniqueIdentifier>{B6CD091F-D2EB-44F3-8D74-BE8F3889CD03}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Minecraft\Minecraft.Build.cs">
+      <Filter>Source\Minecraft</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Minecraft\Minecraft.cpp">
+      <Filter>Source\Minecraft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\Minecraft.h">
+      <Filter>Source\Minecraft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Minecraft\MinecraftCharacter.cpp">
+      <Filter>Source\Minecraft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\MinecraftCharacter.h">
+      <Filter>Source\Minecraft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Minecraft\MinecraftGameMode.cpp">
+      <Filter>Source\Minecraft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\MinecraftGameMode.h">
+      <Filter>Source\Minecraft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Minecraft\MinecraftHUD.cpp">
+      <Filter>Source\Minecraft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\MinecraftHUD.h">
+      <Filter>Source\Minecraft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Minecraft\MinecraftProjectile.cpp">
+      <Filter>Source\Minecraft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\MinecraftProjectile.h">
+      <Filter>Source\Minecraft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Minecraft\MyPawn.cpp">
+      <Filter>Source\Minecraft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\MyPawn.h">
+      <Filter>Source\Minecraft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Minecraft\NewGameMode.cpp">
+      <Filter>Source\Minecraft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\NewGameMode.h">
+      <Filter>Source\Minecraft</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Minecraft\NewPlayerController.cpp">
+      <Filter>Source\Minecraft</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\NewPlayerController.h">
+      <Filter>Source\Minecraft</Filter>
+    </ClInclude>
+    <Filter Include="Source\Minecraft\Blocks">
+      <UniqueIdentifier>{4A1CE45D-0D29-4830-AF38-3C0916839A9D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Minecraft\Blocks\BlockActor.cpp">
+      <Filter>Source\Minecraft\Blocks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\Blocks\BlockActor.h">
+      <Filter>Source\Minecraft\Blocks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Minecraft\Blocks\BlockEnumType.h">
+      <Filter>Source\Minecraft\Blocks</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Minecraft\Blocks\BlockInstancesManager.cpp">
+      <Filter>Source\Minecraft\Blocks</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\Blocks\BlockInstancesManager.h">
+      <Filter>Source\Minecraft\Blocks</Filter>
+    </ClInclude>
+    <Filter Include="Source\Minecraft\Chunk">
+      <UniqueIdentifier>{EF4441B8-25B1-4496-8169-17FC52F3FC53}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Minecraft\Chunk\Chunk.cpp">
+      <Filter>Source\Minecraft\Chunk</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\Chunk\Chunk.h">
+      <Filter>Source\Minecraft\Chunk</Filter>
+    </ClInclude>
+    <Filter Include="Source\Minecraft\Tools">
+      <UniqueIdentifier>{0C708299-C290-4B02-98C6-55C83D7842C2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Minecraft\Tools\ScopedTimer.h">
+      <Filter>Source\Minecraft\Tools</Filter>
+    </ClInclude>
+    <Filter Include="Source\Minecraft\World">
+      <UniqueIdentifier>{E18F368A-E661-4EB6-9952-104ED703CFD2}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Minecraft\World\World.cpp">
+      <Filter>Source\Minecraft\World</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\World\World.h">
+      <Filter>Source\Minecraft\World</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Minecraft\World\WorldConstants.cpp">
+      <Filter>Source\Minecraft\World</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\World\WorldConstants.h">
+      <Filter>Source\Minecraft\World</Filter>
+    </ClInclude>
+    <Filter Include="Source\Minecraft\WorldGenerator">
+      <UniqueIdentifier>{6AE9DF2A-1183-4F57-BA5C-475C718009F3}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Minecraft\WorldGenerator\Random.cpp">
+      <Filter>Source\Minecraft\WorldGenerator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\WorldGenerator\Random.h">
+      <Filter>Source\Minecraft\WorldGenerator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Minecraft\WorldGenerator\SimplexNoise.cpp">
+      <Filter>Source\Minecraft\WorldGenerator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\WorldGenerator\SimplexNoise.h">
+      <Filter>Source\Minecraft\WorldGenerator</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Minecraft\WorldGenerator\WorldGenerator.cpp">
+      <Filter>Source\Minecraft\WorldGenerator</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Minecraft\WorldGenerator\WorldGenerator.h">
+      <Filter>Source\Minecraft\WorldGenerator</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

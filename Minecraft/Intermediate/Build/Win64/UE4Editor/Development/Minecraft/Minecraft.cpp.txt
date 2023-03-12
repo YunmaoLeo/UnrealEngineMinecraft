@@ -1,2 +1,0 @@
-F:\ue4_project\UnrealEngineMinecraft\Minecraft\Intermediate\Build\Win64\UE4Editor\Development\Minecraft\Definitions.Minecraft.h
-F:\ue4_project\UnrealEngineMinecraft\Minecraft\Source\Minecraft\Minecraft.h

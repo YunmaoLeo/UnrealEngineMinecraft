@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft 4.27\\Source\\Minecraft\\Minecraft.Build.cs",
+		"F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft 4.27\\Source\\Minecraft.Target.cs",
+		"F:\\ue4_project\\UnrealEngineMinecraft\\Minecraft 4.27\\Source\\MinecraftEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
