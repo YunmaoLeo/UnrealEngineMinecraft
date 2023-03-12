@@ -964,3 +964,964 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2023.03.12-11.59.25:436][946]LogTemp: Resetting audio stream to device id 
 [2023.03.12-11.59.25:455][946]LogAudioMixer: Display: 0: FrontLeft
 [2023.03.12-11.59.25:455][946]LogAudioMixer: Display: 1: FrontRight
+[2023.03.12-12.11.32:199][112]LogHotReload: New module detected: UE4Editor-Minecraft-0001.dll
+[2023.03.12-12.11.32:908][115]LogHotReload: Starting Hot-Reload from IDE
+[2023.03.12-12.11.33:008][115]LogClass: Could not find existing class BlockActor in package /Script/Minecraft for HotReload, assuming new class
+[2023.03.12-12.11.33:010][115]LogClass: BlockEnumType HotReload.
+[2023.03.12-12.11.33:010][115]LogTemp: stone: load Material success
+[2023.03.12-12.11.33:010][115]LogTemp: grass: load Material success
+[2023.03.12-12.11.33:010][115]LogTemp: dirt: load Material success
+[2023.03.12-12.11.33:012][115]LogHotReload: Re-instancing BlockActor after hot-reload.
+[2023.03.12-12.11.33:021][115]LogContentBrowser: Native class hierarchy updated for 'Minecraft' in 0.0005 seconds. Added 8 classes and 3 folders.
+[2023.03.12-12.11.33:022][115]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2023.03.12-12.11.33:068][115]LogContentBrowser: Native class hierarchy populated in 0.0135 seconds. Added 3435 classes and 824 folders.
+[2023.03.12-12.11.33:072][115]Display: HotReload took  0.2s.
+[2023.03.12-12.11.37:096][285]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.12-12.11.37:106][285]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.12-12.11.37:106][285]PIE: New page: PIE session: FirstPersonExampleMap (2023年3月13日 上午4:11:37)
+[2023.03.12-12.11.37:128][285]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.03.12-12.11.37:134][285]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006418s)
+[2023.03.12-12.11.37:135][285]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.03.12-12.11.37:135][285]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EAA26F6400), frame # 15285
+[2023.03.12-12.11.37:136][285]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA3EB50E00), frame # 15285
+[2023.03.12-12.11.37:136][285]LogPlayLevel: PIE: World Init took: (0.001312s)
+[2023.03.12-12.11.37:136][285]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.007920s)
+[2023.03.12-12.11.37:151][285]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.03.12-12.11.37:155][285]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.12-12.11.37:155][285]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.12-12.11.37:155][285]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.12-12.11.37:155][285]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.12-12.11.37:155][285]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.12-12.11.37:155][285]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.12-12.11.37:155][285]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.12-12.11.37:155][285]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.12-12.11.37:155][285]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.12-12.11.37:155][285]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.12-12.11.37:161][285]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.12-12.11.37:161][285]LogAudioMixer: Display: 1: FrontRight
+[2023.03.12-12.11.37:180][285]LogAudioMixer: Display: Using Audio Device U27UD (NVIDIA High Definition Audio)
+[2023.03.12-12.11.37:180][285]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.12-12.11.37:180][285]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.12-12.11.37:180][285]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.12-12.11.37:181][285]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.12-12.11.37:190][285]LogInit: FAudioDevice initialized.
+[2023.03.12-12.11.37:198][285]LogLoad: Game class is 'NewGameMode'
+[2023.03.12-12.11.37:199][285]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2023.03.12-20.11.37
+[2023.03.12-12.11.37:200][285]LogWorld: Bringing up level for play took: 0.000920
+[2023.03.12-12.11.37:200][285]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2023.03.12-12.11.37:201][285]LogBlueprintUserMessages: [NewPlayerController_0] GamePlayerUse
+[2023.03.12-12.11.37:201][285]LogTemp: stone: load Material success
+[2023.03.12-12.11.37:201][285]LogTemp: grass: load Material success
+[2023.03.12-12.11.37:202][285]LogTemp: dirt: load Material success
+[2023.03.12-12.11.37:202][285]LogActor: Warning: BlockActor /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BlockActor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.03.12-12.11.37:202][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:203][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:204][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:205][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:206][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:207][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:207][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:208][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:209][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:210][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:211][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:212][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:213][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:213][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:214][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:215][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:216][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:217][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:218][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:219][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:220][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:220][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:221][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:222][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:223][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:224][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:225][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:225][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:226][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:227][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:228][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:229][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:230][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:230][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:231][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:232][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:233][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:234][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:234][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:235][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:236][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:237][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:238][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:239][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:240][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:241][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:241][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:242][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:243][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:244][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:245][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:245][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:246][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:247][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:248][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:249][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:250][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:251][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:251][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:252][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:253][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:254][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:255][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:255][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:256][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:257][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:258][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:259][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:259][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:261][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:261][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:262][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:263][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:264][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:265][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:265][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:266][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:267][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:268][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:269][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:269][285]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.37:270][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:270][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:270][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:270][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:270][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:271][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:271][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:271][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:271][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:271][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:271][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:271][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:271][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:272][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:272][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:272][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:272][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:272][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:272][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:272][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:273][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:273][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:273][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:273][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:273][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:273][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:273][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:274][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:274][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:274][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:274][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:274][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:274][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:274][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:274][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:275][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:275][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:275][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:275][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:275][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:276][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:276][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:276][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:276][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:276][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:276][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:276][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:277][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:277][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:277][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:277][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:277][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:277][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:278][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:278][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:278][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:278][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:278][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:278][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:278][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:279][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:279][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:279][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:279][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:279][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:279][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:279][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:279][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:280][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:280][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:280][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:280][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:280][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:280][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:280][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:280][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:281][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:281][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:281][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:281][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:281][285]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.37:282][285]PIE: Server logged in
+[2023.03.12-12.11.37:283][285]PIE: Play in editor total start time 0.18 seconds.
+[2023.03.12-12.11.45:452][921]Cmd: stat fps
+[2023.03.12-12.11.49:853][449]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.49:853][449]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.49:854][449]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.49:854][449]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.49:855][449]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.49:855][449]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.49:856][449]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.49:856][449]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.49:857][449]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.49:857][449]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.49:858][449]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.49:858][449]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.49:859][449]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.49:859][449]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.49:860][449]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.49:860][449]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.49:861][449]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.49:861][449]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.49:862][449]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.49:863][449]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.49:863][449]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.49:864][449]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.50:290][450]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.083879 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2023.03.12-12.11.56:002][129]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.56:002][129]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.56:003][129]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.56:003][129]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.56:004][129]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.56:004][129]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.56:005][129]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.56:005][129]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.56:006][129]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.56:006][129]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.56:007][129]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.56:007][129]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.56:008][129]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.56:008][129]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.56:009][129]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.56:009][129]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.56:010][129]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.56:010][129]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.56:011][129]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.56:011][129]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.56:012][129]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.56:012][129]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.59:591][503]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.59:591][503]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.59:592][503]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.59:592][503]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.59:593][503]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.59:594][503]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.59:594][503]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.59:595][503]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.59:595][503]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.59:596][503]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.59:596][503]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.59:597][503]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.59:597][503]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.59:598][503]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.59:598][503]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.59:599][503]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.59:599][503]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.59:600][503]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.59:600][503]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.59:601][503]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.11.59:601][503]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.11.59:602][503]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.02:270][768]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.02:270][768]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.02:271][768]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.02:271][768]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.02:272][768]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.02:272][768]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.02:273][768]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.02:273][768]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.02:274][768]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.02:274][768]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.02:275][768]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.02:276][768]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.02:276][768]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.02:277][768]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.02:277][768]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.02:278][768]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.02:278][768]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.02:279][768]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.02:279][768]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.02:280][768]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.02:280][768]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.02:281][768]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.06:078][169]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.06:079][169]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.06:080][169]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.06:080][169]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.06:081][169]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.06:081][169]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.06:082][169]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.06:082][169]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.06:083][169]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.06:083][169]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.06:083][169]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.06:083][169]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.06:084][169]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.06:084][169]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.06:085][169]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.06:085][169]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.06:086][169]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.06:086][169]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.06:087][169]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.06:087][169]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.06:088][169]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.06:088][169]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:159][479]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.09:159][479]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:160][479]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.09:160][479]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:161][479]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.09:161][479]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:162][479]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.09:162][479]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:163][479]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.09:163][479]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:164][479]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.09:164][479]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:165][479]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.09:165][479]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:166][479]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.09:166][479]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:167][479]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.09:167][479]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:168][479]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.09:168][479]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:169][479]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.09:169][479]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.09:586][480]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.064919 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2023.03.12-12.12.13:441][930]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.13:442][930]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.13:443][930]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.13:443][930]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.13:444][930]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.13:444][930]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.13:445][930]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.13:445][930]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.13:446][930]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.13:446][930]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.13:447][930]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.13:447][930]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.13:448][930]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.13:448][930]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.13:449][930]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.13:449][930]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.13:450][930]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.13:450][930]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.13:451][930]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.13:451][930]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.13:452][930]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.13:452][930]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.16:243][199]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.16:244][199]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.16:244][199]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.16:245][199]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.16:245][199]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.16:246][199]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.16:246][199]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.16:247][199]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.16:247][199]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.16:248][199]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.16:249][199]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.16:249][199]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.16:250][199]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.16:250][199]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.16:251][199]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.16:251][199]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.16:252][199]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.16:252][199]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.16:253][199]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.16:253][199]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.16:254][199]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.16:254][199]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.20:742][665]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.20:742][665]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.20:743][665]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.20:743][665]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.20:744][665]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.20:744][665]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.20:745][665]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.20:745][665]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.20:746][665]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.20:746][665]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.20:747][665]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.20:747][665]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.20:748][665]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.20:748][665]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.20:749][665]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.20:750][665]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.20:750][665]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.20:751][665]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.20:751][665]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.20:752][665]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.20:752][665]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.20:753][665]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.21:285][666]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.050000 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Falling'
+[2023.03.12-12.12.25:296][131]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.25:296][131]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.25:297][131]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.25:297][131]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.25:298][131]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.25:299][131]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.25:300][131]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.25:300][131]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.25:301][131]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.25:301][131]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.25:302][131]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.25:302][131]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.25:303][131]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.25:303][131]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.25:304][131]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.25:304][131]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.25:305][131]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.25:305][131]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.25:306][131]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.25:306][131]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.25:307][131]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.25:307][131]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.25:967][132]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.068846 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2023.03.12-12.12.26:367][163]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.26:367][163]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.26:368][163]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.26:368][163]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.26:369][163]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.26:369][163]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.26:370][163]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.26:370][163]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.26:371][163]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.26:371][163]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.26:372][163]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.26:372][163]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.37:330][375]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.37:330][375]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.37:331][375]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.37:331][375]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.39:431][592]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.39:431][592]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.54:125][905]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.54:125][905]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.54:126][905]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.54:127][905]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.54:127][905]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.54:128][905]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.54:128][905]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.54:129][905]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.54:129][905]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.54:130][905]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.54:131][905]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.12.54:131][905]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.12.57:768][290]Cmd: FreezeRendering
+[2023.03.12-12.12.57:768][290]LogConsoleResponse: Display: Freezing Foliage Culling.
+[2023.03.12-12.12.57:788][293]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.03.12-12.13.00:146][555]LogEditorViewport: Clicking on Actor (context menu): BlockActor (BlockActor)
+[2023.03.12-12.13.06:151][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.12-12.13.06:151][209]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.03.12-12.13.06:152][209]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.12-12.13.07:391][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.12-12.13.07:400][209]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.12-12.13.07:401][209]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.12-12.13.07:422][209]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.12-12.13.07:449][209]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA3EB50E00), frame # 24209
+[2023.03.12-12.13.07:449][209]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EAA26F6400), frame # 24209
+[2023.03.12-12.13.07:455][209]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2023.03.12-12.13.07:496][210]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2023.03.12-12.13.08:817][363]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.12-12.13.08:825][363]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.12-12.13.08:825][363]PIE: New page: PIE session: FirstPersonExampleMap (2023年3月13日 上午4:13:08)
+[2023.03.12-12.13.08:859][363]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.03.12-12.13.08:866][363]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006538s)
+[2023.03.12-12.13.08:866][363]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.03.12-12.13.08:866][363]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EAA26F7000), frame # 24363
+[2023.03.12-12.13.08:866][363]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EAA564A840), frame # 24363
+[2023.03.12-12.13.08:866][363]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2023.03.12-12.13.08:866][363]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.007580s)
+[2023.03.12-12.13.08:875][363]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2023.03.12-12.13.08:877][363]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.12-12.13.08:877][363]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.12-12.13.08:877][363]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.12-12.13.08:877][363]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.12-12.13.08:877][363]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.12-12.13.08:877][363]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.12-12.13.08:877][363]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.12-12.13.08:877][363]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.12-12.13.08:878][363]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.12-12.13.08:878][363]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.12-12.13.08:883][363]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.12-12.13.08:883][363]LogAudioMixer: Display: 1: FrontRight
+[2023.03.12-12.13.08:901][363]LogAudioMixer: Display: Using Audio Device U27UD (NVIDIA High Definition Audio)
+[2023.03.12-12.13.08:901][363]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.12-12.13.08:901][363]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.12-12.13.08:901][363]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.12-12.13.08:901][363]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.12-12.13.08:910][363]LogInit: FAudioDevice initialized.
+[2023.03.12-12.13.08:915][363]LogLoad: Game class is 'NewGameMode'
+[2023.03.12-12.13.08:916][363]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2023.03.12-20.13.08
+[2023.03.12-12.13.08:916][363]LogWorld: Bringing up level for play took: 0.000848
+[2023.03.12-12.13.08:916][363]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2023.03.12-12.13.08:918][363]LogBlueprintUserMessages: [NewPlayerController_0] GamePlayerUse
+[2023.03.12-12.13.08:918][363]LogTemp: stone: load Material success
+[2023.03.12-12.13.08:918][363]LogTemp: grass: load Material success
+[2023.03.12-12.13.08:918][363]LogTemp: dirt: load Material success
+[2023.03.12-12.13.08:918][363]LogActor: Warning: BlockActor /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BlockActor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.03.12-12.13.08:919][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:920][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:921][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:921][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:922][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:923][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:924][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:925][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:926][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:926][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:927][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:928][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:929][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:930][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:931][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:932][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:932][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:933][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:934][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:935][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:936][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:937][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:937][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:938][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:939][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:940][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:941][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:942][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:942][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:943][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:944][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:945][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:946][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:947][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:947][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:948][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:949][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:950][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:951][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:952][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:952][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:953][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:954][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:955][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:956][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:957][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:957][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:958][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:959][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:960][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:961][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:961][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:962][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:963][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:964][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:965][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:966][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:966][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:967][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:968][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:969][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:970][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:971][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:971][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:972][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:973][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:974][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:974][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:975][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:976][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:977][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:978][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:978][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:979][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:980][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:981][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:982][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:983][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:984][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:984][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:985][363]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.08:985][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:986][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:986][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:986][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:986][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:986][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:986][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:986][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:987][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:987][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:987][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:987][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:987][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:987][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:987][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:988][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:988][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:988][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:988][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:988][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:988][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:988][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:988][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:989][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:989][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:989][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:989][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:989][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:989][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:990][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:990][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:990][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:990][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:990][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:990][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:990][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:990][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:991][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:991][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:991][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:991][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:991][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:991][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:991][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:991][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:992][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:992][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:992][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:992][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:992][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:992][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:992][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:992][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:993][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:993][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:993][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:993][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:993][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:993][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:993][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:993][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:994][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:994][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:994][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:994][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:994][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:994][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:994][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:994][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:994][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:995][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:995][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:995][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:995][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:995][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:995][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:995][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:995][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:995][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:996][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:996][363]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.08:997][363]PIE: Server logged in
+[2023.03.12-12.13.08:997][363]PIE: Play in editor total start time 0.174 seconds.
+[2023.03.12-12.13.19:500][202]Cmd: freezerender
+[2023.03.12-12.13.19:500][202]Command not recognized: freezerender
+[2023.03.12-12.13.25:491][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.12-12.13.25:491][810]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.03.12-12.13.25:492][810]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.12-12.13.26:064][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.12-12.13.26:070][810]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.12-12.13.26:071][810]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.12-12.13.26:079][810]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.12-12.13.26:097][810]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EAA564A840), frame # 25810
+[2023.03.12-12.13.26:097][810]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EAA26F7000), frame # 25810
+[2023.03.12-12.13.26:102][810]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2023.03.12-12.13.26:124][811]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.03.12-12.13.27:454][961]LogTemp: Repeating last play command: Selected Viewport
+[2023.03.12-12.13.27:462][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.12-12.13.27:462][961]PIE: New page: PIE session: FirstPersonExampleMap (2023年3月13日 上午4:13:27)
+[2023.03.12-12.13.27:490][961]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.03.12-12.13.27:495][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005376s)
+[2023.03.12-12.13.27:496][961]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2023.03.12-12.13.27:496][961]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001EAF69D1000), frame # 25961
+[2023.03.12-12.13.27:496][961]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001EA1030CCC0), frame # 25961
+[2023.03.12-12.13.27:496][961]LogPlayLevel: PIE: World Init took: (0.001007s)
+[2023.03.12-12.13.27:496][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.006528s)
+[2023.03.12-12.13.27:505][961]LogUObjectHash: Compacting FUObjectHashTables data took   0.53ms
+[2023.03.12-12.13.27:506][961]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.12-12.13.27:506][961]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.12-12.13.27:507][961]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.12-12.13.27:507][961]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.12-12.13.27:507][961]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.03.12-12.13.27:507][961]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.03.12-12.13.27:507][961]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.03.12-12.13.27:507][961]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.12-12.13.27:507][961]LogAudio: Display: Using built-in audio occlusion.
+[2023.03.12-12.13.27:507][961]LogAudioMixer: Display: Initializing audio mixer.
+[2023.03.12-12.13.27:512][961]LogAudioMixer: Display: 0: FrontLeft
+[2023.03.12-12.13.27:512][961]LogAudioMixer: Display: 1: FrontRight
+[2023.03.12-12.13.27:530][961]LogAudioMixer: Display: Using Audio Device U27UD (NVIDIA High Definition Audio)
+[2023.03.12-12.13.27:530][961]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.12-12.13.27:530][961]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.12-12.13.27:530][961]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.12-12.13.27:530][961]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.03.12-12.13.27:540][961]LogInit: FAudioDevice initialized.
+[2023.03.12-12.13.27:546][961]LogLoad: Game class is 'NewGameMode'
+[2023.03.12-12.13.27:547][961]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2023.03.12-20.13.27
+[2023.03.12-12.13.27:547][961]LogWorld: Bringing up level for play took: 0.000863
+[2023.03.12-12.13.27:548][961]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2023.03.12-12.13.27:549][961]LogBlueprintUserMessages: [NewPlayerController_0] GamePlayerUse
+[2023.03.12-12.13.27:549][961]LogTemp: stone: load Material success
+[2023.03.12-12.13.27:549][961]LogTemp: grass: load Material success
+[2023.03.12-12.13.27:549][961]LogTemp: dirt: load Material success
+[2023.03.12-12.13.27:549][961]LogActor: Warning: BlockActor /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.BlockActor_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2023.03.12-12.13.27:550][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:551][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:552][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:553][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:554][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:554][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:555][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:556][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:557][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:558][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:559][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:559][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:560][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:561][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:562][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:563][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:564][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:565][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:566][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:566][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:567][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:568][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:569][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:570][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:571][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:571][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:572][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:573][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:574][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:575][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:576][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:576][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:577][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:578][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:579][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:580][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:581][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:582][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:582][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:583][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:584][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:585][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:586][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:586][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:587][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:588][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:589][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:590][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:591][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:592][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:592][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:593][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:594][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:595][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:596][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:596][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:597][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:598][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:599][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:600][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:601][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:601][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:602][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:603][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:604][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:605][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:605][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:606][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:607][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:608][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:609][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:610][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:611][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:611][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:612][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:613][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:614][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:615][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:615][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:616][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:617][961]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.27:617][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:617][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:618][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:618][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:618][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:618][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:618][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:618][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:618][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:619][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:619][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:619][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:619][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:619][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:619][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:619][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:619][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:620][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:620][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:620][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:620][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:620][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:620][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:620][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:621][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:621][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:621][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:621][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:621][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:621][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:621][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:621][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:622][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:622][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:622][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:622][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:622][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:622][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:622][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:622][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:623][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:623][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:623][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:623][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:623][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:623][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:623][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:623][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:624][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:624][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:624][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:624][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:624][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:624][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:624][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:624][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:624][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:625][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:625][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:625][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:625][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:625][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:625][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:625][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:625][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:626][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:626][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:626][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:626][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:626][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:626][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:626][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:626][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:626][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:627][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:627][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:627][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:627][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:627][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:627][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:627][961]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.27:628][961]PIE: Server logged in
+[2023.03.12-12.13.27:629][961]PIE: Play in editor total start time 0.168 seconds.
+[2023.03.12-12.13.41:408][177]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.41:408][177]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.41:409][177]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.41:409][177]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.41:410][177]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.41:410][177]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.41:411][177]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.41:412][177]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.41:412][177]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.41:413][177]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.41:413][177]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.41:414][177]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.41:414][177]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.41:415][177]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.41:415][177]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.41:416][177]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.41:416][177]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.41:417][177]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.41:417][177]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.41:418][177]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.41:418][177]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.13.41:419][177]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.13.41:856][178]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.076458 > MaxSimulationTimeStep (0.050) for 'FirstPersonCharacter_C_0', movement 'Walking'
+[2023.03.12-12.13.55:039][747]Cmd: FreezeAt
+[2023.03.12-12.13.55:039][747]Command not recognized: FreezeAt
+[2023.03.12-12.14.09:358][465]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:358][465]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.09:359][465]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:360][465]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.09:360][465]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:361][465]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.09:361][465]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:362][465]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.09:362][465]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:363][465]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.09:363][465]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:364][465]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.09:364][465]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:365][465]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.09:365][465]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:366][465]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.09:736][471]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:736][471]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.09:737][471]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:737][471]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.09:738][471]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:738][471]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.09:739][471]LogClass: GenerateTerrian : 0 ms
+[2023.03.12-12.14.09:739][471]LogClass: RenderAllBlocks : 0 ms
+[2023.03.12-12.14.11:101][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.12-12.14.11:101][603]LogWorld: BeginTearingDown for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2023.03.12-12.14.11:102][603]LogWorld: UWorld::CleanupWorld for FirstPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.12-12.14.11:796][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.12-12.14.11:804][603]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.12-12.14.11:805][603]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.12-12.14.11:813][603]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.12-12.14.11:837][603]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001EA1030CCC0), frame # 30603
+[2023.03.12-12.14.11:837][603]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001EAF69D1000), frame # 30603
+[2023.03.12-12.14.11:842][603]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.03.12-12.14.11:900][604]LogPlayLevel: Display: Destroying online subsystem :Context_5

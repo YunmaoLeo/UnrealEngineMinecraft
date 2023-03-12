@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeMinecraft_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xEE8264A0,
+				0x028D4C72,
 				0x937AB1A6,
 				METADATA_PARAMS(nullptr, 0)
 			};

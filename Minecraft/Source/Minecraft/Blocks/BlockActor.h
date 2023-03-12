@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "BlockEnumType.h"
+#include "Components/HierarchicalInstancedStaticMeshComponent.h"
 #include "GameFramework/Actor.h"
 #include "BlockActor.generated.h"
 
@@ -25,7 +26,7 @@ public:
 	TMap<BlockEnumType, UMaterialInterface*> MaterialsMap;
 	
 	UPROPERTY(EditAnywhere)
-	TMap<BlockEnumType, UInstancedStaticMeshComponent*> BlockMeshesMap;
+	TMap<BlockEnumType, UHierarchicalInstancedStaticMeshComponent*> BlockMeshesMap;
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

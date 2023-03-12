@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeBlockActor() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Minecraft();
 	MINECRAFT_API UEnum* Z_Construct_UEnum_Minecraft_BlockEnumType();
-	ENGINE_API UClass* Z_Construct_UClass_UInstancedStaticMeshComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UHierarchicalInstancedStaticMeshComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
 // End Cross Module References
 	void ABlockActor::StaticRegisterNativesABlockActor()
@@ -72,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeBlockActor() {}
 	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_ABlockActor_Statics::NewProp_BlockMeshesMap = { "BlockMeshesMap", nullptr, (EPropertyFlags)0x0010008000000009, UE4CodeGen_Private::EPropertyGenFlags::Map, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABlockActor, BlockMeshesMap), EMapPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_ABlockActor_Statics::NewProp_BlockMeshesMap_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABlockActor_Statics::NewProp_BlockMeshesMap_MetaData)) };
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ABlockActor_Statics::NewProp_BlockMeshesMap_Key_KeyProp = { "BlockMeshesMap_Key", nullptr, (EPropertyFlags)0x0000000000080009, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UEnum_Minecraft_BlockEnumType, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ABlockActor_Statics::NewProp_BlockMeshesMap_Key_KeyProp_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABlockActor_Statics::NewProp_BlockMeshesMap_ValueProp = { "BlockMeshesMap", nullptr, (EPropertyFlags)0x0000000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, Z_Construct_UClass_UInstancedStaticMeshComponent_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABlockActor_Statics::NewProp_BlockMeshesMap_ValueProp = { "BlockMeshesMap", nullptr, (EPropertyFlags)0x0000000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 1, Z_Construct_UClass_UHierarchicalInstancedStaticMeshComponent_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABlockActor_Statics::NewProp_MaterialsMap_MetaData[] = {
 		{ "Category", "Materials" },
@@ -120,7 +120,7 @@ void EmptyLinkFunctionForGeneratedCodeBlockActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABlockActor, 669119397);
+	IMPLEMENT_CLASS(ABlockActor, 1526445403);
 	template<> MINECRAFT_API UClass* StaticClass<ABlockActor>()
 	{
 		return ABlockActor::StaticClass();

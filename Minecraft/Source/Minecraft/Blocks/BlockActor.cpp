@@ -35,10 +35,9 @@ void ABlockActor::InitInstancedStaticMeshes()
 	// for (int i = 0; i < 1; i++)
 	{
 		BlockEnumType type = static_cast<BlockEnumType>(i);
-		UInstancedStaticMeshComponent* BlockMeshComponent;
+		UHierarchicalInstancedStaticMeshComponent* BlockMeshComponent;
 
-		BlockMeshComponent = NewObject<UInstancedStaticMeshComponent>(this,*UEnum::GetValueAsString<BlockEnumType>(type));
-
+		BlockMeshComponent = NewObject<UHierarchicalInstancedStaticMeshComponent>(this,*UEnum::GetValueAsString<BlockEnumType>(type));
 		BlockMeshComponent->SetStaticMesh(myMesh);
 		BlockMeshComponent->SetMaterial(0, MaterialsMap[type]);
 		BlockMeshesMap.Add(type, BlockMeshComponent);

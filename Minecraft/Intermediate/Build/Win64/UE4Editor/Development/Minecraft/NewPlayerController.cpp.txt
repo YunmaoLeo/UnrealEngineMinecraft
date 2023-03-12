@@ -2,6 +2,8 @@ F:\ue4_project\UnrealEngineMinecraft\Minecraft\Intermediate\Build\Win64\UE4Edito
 F:\ue4_project\UnrealEngineMinecraft\Minecraft\Source\Minecraft\NewPlayerController.h
 F:\ue4_project\UnrealEngineMinecraft\Minecraft\Source\Minecraft\Blocks/BlockActor.h
 F:\ue4_project\UnrealEngineMinecraft\Minecraft\Source\Minecraft\Blocks\BlockEnumType.h
+F:\UE_4.25\Engine\Source\Runtime\Engine\Classes\Components/HierarchicalInstancedStaticMeshComponent.h
+F:\UE_4.25\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\HierarchicalInstancedStaticMeshComponent.generated.h
 F:\ue4_project\UnrealEngineMinecraft\Minecraft\Intermediate\Build\Win64\UE4Editor\Inc\Minecraft\BlockActor.generated.h
 F:\ue4_project\UnrealEngineMinecraft\Minecraft\Source\Minecraft\Blocks/BlockInstancesManager.h
 F:\ue4_project\UnrealEngineMinecraft\Minecraft\Source\Minecraft\World/World.h
