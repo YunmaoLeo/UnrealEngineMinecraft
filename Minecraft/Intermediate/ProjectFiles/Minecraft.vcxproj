@@ -359,6 +359,7 @@
     <ClCompile Include="..\..\Source\Minecraft\World\WorldConstants.cpp" />
     <ClInclude Include="..\..\Source\Minecraft\Chunk\Chunk.h" />
     <ClInclude Include="..\..\Source\Minecraft\NewPlayerController.h" />
+    <ClInclude Include="..\..\Source\Minecraft\Tools\ScopedTimer.h" />
     <ClInclude Include="..\..\Source\Minecraft\WorldGenerator\Random.h" />
     <ClInclude Include="..\..\Source\Minecraft\WorldGenerator\SimplexNoise.h" />
     <ClInclude Include="..\..\Source\Minecraft\WorldGenerator\WorldGenerator.h" />

@@ -34,13 +34,14 @@ void ANewPlayerController::UpdatePosition()
 	}
 
 	FVector position = pawn->GetActorLocation();
+	world->UpdatePlayerPos(position);
 }
 
 void ANewPlayerController::Initialize()
 {
 	BlockISMActor = GetWorld()->SpawnActor<ABlockActor>();
 	manager = new BlockInstancesManager(BlockISMActor);
-	world = new World();
-	world->RenderBlocks(manager);
+	world = new World(manager);
+	world->RenderBlocks();
 }
 

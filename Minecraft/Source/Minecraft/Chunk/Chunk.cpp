@@ -1,5 +1,9 @@
 ﻿#include "Chunk.h"
 
+#include <chrono>
+
+
+#include "Minecraft/Tools/ScopedTimer.h"
 #include "Minecraft/World/WorldConstants.h"
 #include "Minecraft/WorldGenerator/WorldGenerator.h"
 
@@ -36,6 +40,7 @@ void Chunk::InitBlocks()
 
 void Chunk::GenerateTerrain()
 {
+	ScopedTimer _RenderTimer(TEXT("GenerateTerrian"));
 	for (int x = 0; x < size; x++)
 	{
 		for (int y = 0; y < size; y++)
@@ -55,6 +60,9 @@ void Chunk::GenerateTerrain()
 
 void Chunk::RenderAllBlocks(BlockInstancesManager* manager)
 {
+	ScopedTimer _RenderTimer(TEXT("RenderAllBlocks"));
+	std::vector<FTransform> transforms;
+	std::vector<BlockEnumType> blocks;
 	for (int x = 0; x < size; x++)
 	{
 		for (int y = 0; y < size; y++)
@@ -66,7 +74,36 @@ void Chunk::RenderAllBlocks(BlockInstancesManager* manager)
 					FVector location(blockSize * x, blockSize * y, blockSize * (z));
 					FTransform transform;
 					transform.SetLocation(location + origin);
-					BlocksInstanceIndex[x][y][z] = manager->AddBlockInstance(Blocks[x][y][z], transform);
+					transforms.push_back(transform);
+					blocks.push_back(Blocks[x][y][z]);
+					// BlocksInstanceIndex[x][y][z] = manager->AddBlockInstance(Blocks[x][y][z], transform);
+				}
+			}
+		}
+	}
+	AsyncTask(
+		ENamedThreads::GameThread,
+		[transforms,manager,blocks]()
+		{
+			for (int i = 0; i < transforms.size(); i++)
+			{
+				manager->AddBlockInstance(blocks[i], transforms[i]);
+			}
+		}
+	);
+}
+
+void Chunk::RemoveAllBlocks(BlockInstancesManager* manager)
+{
+	for (int x = 0; x < size; x++)
+	{
+		for (int y = 0; y < size; y++)
+		{
+			for (int z = 0; z < depth; z++)
+			{
+				if (BlocksVisibleStatus[x][y][z])
+				{
+					manager->RemoveBlockInstance(Blocks[x][y][z], BlocksInstanceIndex[x][y][z]);
 				}
 			}
 		}
@@ -94,7 +131,7 @@ void Chunk::CheckTerrainBlockVisibility()
 				{
 					continue;
 				}
-				if (x==0 || x==size-1 ||y==0||y==size-1||z==0||z==depth-1)
+				if (x == 0 || x == size - 1 || y == 0 || y == size - 1 || z == 0 || z == depth - 1)
 				{
 					BlocksVisibleStatus[x][y][z] = true;
 					continue;

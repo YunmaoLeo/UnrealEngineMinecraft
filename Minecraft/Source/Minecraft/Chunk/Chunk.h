@@ -10,6 +10,8 @@ public:
 	Chunk(int x, int y);
 	~Chunk();
 	void RenderAllBlocks(BlockInstancesManager* manager);
+	void RemoveAllBlocks(BlockInstancesManager* manager);
+
 private:
 	std::vector<std::vector<std::vector<BlockEnumType>>> Blocks;
 	std::vector<std::vector<std::vector<bool>>> BlocksVisibleStatus;
